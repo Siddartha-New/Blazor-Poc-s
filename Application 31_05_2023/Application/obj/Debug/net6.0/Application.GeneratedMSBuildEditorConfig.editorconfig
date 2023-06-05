@@ -9,53 +9,53 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = Application
 build_property.RootNamespace = Application
-build_property.ProjectDir = C:\Users\Garigipati.Kowshik\Desktop\Mubadhula\Application\
+build_property.ProjectDir = D:\My_Blazor_pocs\Blazor-Poc-s\Application 31_05_2023\Application\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Garigipati.Kowshik\Desktop\Mubadhula\Application
+build_property.MSBuildProjectDirectory = D:\My_Blazor_pocs\Blazor-Poc-s\Application 31_05_2023\Application
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Garigipati.Kowshik/Desktop/Mubadhula/Application/App.razor]
+[D:/My_Blazor_pocs/Blazor-Poc-s/Application 31_05_2023/Application/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Garigipati.Kowshik/Desktop/Mubadhula/Application/Components/Login.razor]
+[D:/My_Blazor_pocs/Blazor-Poc-s/Application 31_05_2023/Application/Components/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMb2dpbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Garigipati.Kowshik/Desktop/Mubadhula/Application/Components/MainPage.razor]
+[D:/My_Blazor_pocs/Blazor-Poc-s/Application 31_05_2023/Application/Components/MainPage.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xNYWluUGFnZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Garigipati.Kowshik/Desktop/Mubadhula/Application/Components/Register.razor]
+[D:/My_Blazor_pocs/Blazor-Poc-s/Application 31_05_2023/Application/Components/Register.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSZWdpc3Rlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Garigipati.Kowshik/Desktop/Mubadhula/Application/Pages/Counter.razor]
+[D:/My_Blazor_pocs/Blazor-Poc-s/Application 31_05_2023/Application/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Garigipati.Kowshik/Desktop/Mubadhula/Application/Pages/FetchData.razor]
+[D:/My_Blazor_pocs/Blazor-Poc-s/Application 31_05_2023/Application/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Garigipati.Kowshik/Desktop/Mubadhula/Application/Pages/Index.razor]
+[D:/My_Blazor_pocs/Blazor-Poc-s/Application 31_05_2023/Application/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Garigipati.Kowshik/Desktop/Mubadhula/Application/Shared/SurveyPrompt.razor]
+[D:/My_Blazor_pocs/Blazor-Poc-s/Application 31_05_2023/Application/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Garigipati.Kowshik/Desktop/Mubadhula/Application/_Imports.razor]
+[D:/My_Blazor_pocs/Blazor-Poc-s/Application 31_05_2023/Application/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Garigipati.Kowshik/Desktop/Mubadhula/Application/Shared/MainLayout.razor]
+[D:/My_Blazor_pocs/Blazor-Poc-s/Application 31_05_2023/Application/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-63m3azcr56
 
-[C:/Users/Garigipati.Kowshik/Desktop/Mubadhula/Application/Shared/NavMenu.razor]
+[D:/My_Blazor_pocs/Blazor-Poc-s/Application 31_05_2023/Application/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-osf0pfc8is

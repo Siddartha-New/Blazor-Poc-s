@@ -1,0 +1,53 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = Crud_Operation_without_Api
+build_property.RootNamespace = Crud_Operation_without_Api
+build_property.ProjectDir = D:\My_Blazor_pocs\Blazor-Poc-s\Crud Operation without Api 05_06_2022\Crud Operation without Api\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\My_Blazor_pocs\Blazor-Poc-s\Crud Operation without Api 05_06_2022\Crud Operation without Api
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/My_Blazor_pocs/Blazor-Poc-s/Crud Operation without Api 05_06_2022/Crud Operation without Api/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My_Blazor_pocs/Blazor-Poc-s/Crud Operation without Api 05_06_2022/Crud Operation without Api/Pages/Component.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcG9uZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My_Blazor_pocs/Blazor-Poc-s/Crud Operation without Api 05_06_2022/Crud Operation without Api/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My_Blazor_pocs/Blazor-Poc-s/Crud Operation without Api 05_06_2022/Crud Operation without Api/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My_Blazor_pocs/Blazor-Poc-s/Crud Operation without Api 05_06_2022/Crud Operation without Api/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My_Blazor_pocs/Blazor-Poc-s/Crud Operation without Api 05_06_2022/Crud Operation without Api/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My_Blazor_pocs/Blazor-Poc-s/Crud Operation without Api 05_06_2022/Crud Operation without Api/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/My_Blazor_pocs/Blazor-Poc-s/Crud Operation without Api 05_06_2022/Crud Operation without Api/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-eyqb3mp2mr
+
+[D:/My_Blazor_pocs/Blazor-Poc-s/Crud Operation without Api 05_06_2022/Crud Operation without Api/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-pefs51cek7

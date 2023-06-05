@@ -1,0 +1,55 @@
+﻿@page "/Test" 
+@using Models
+
+
+<button @onclick="()=>Test(id)"></button>
+@code {
+    int id = 1;
+    int selectedRowIndex = -1; // Initialize with -1 to indicate no row is selected
+    StudentDtO student = new();
+
+    List<StudentDtO> studentDtOList = new List<StudentDtO>()
+    {
+
+       new StudentDtO()
+       {
+           Name="Test",
+           Description ="Test"
+
+       },
+        new StudentDtO()
+       {
+           Name="Test",
+           Description ="Test"
+
+       },
+
+    };
+
+
+    bool Test(int id)
+    {
+        try
+        {
+            var a = id;
+            return true;
+        }
+        catch (Exception e)
+        {
+            return false;
+        }
+
+    }
+
+
+
+
+    
+
+        
+
+
+
+}
+
+

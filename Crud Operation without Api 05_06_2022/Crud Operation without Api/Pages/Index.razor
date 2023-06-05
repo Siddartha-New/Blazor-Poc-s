@@ -1,0 +1,184 @@
+﻿@page "/"
+@using Crud_Operation_without_Api.Models;
+@using Crud_Operation_without_Api.Code;
+@using Radzen
+
+
+<h1>Crude operations</h1>
+<style>
+    table {
+        margin-top: 10px;
+    }
+
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 80%;
+    }
+
+    td, th {
+        border: 2px solid #dddddd;
+        text-align: right;
+        padding: 9px;
+    }
+
+    tr:nth-child(even) {
+        background-color: wheat;
+    }
+    /* .btn-success:hover {
+            color: #fff;
+            background-color: red;
+            border-color: #146c43;
+        }*/
+    .Save {
+        border: antiquewhite;
+        margin: -30px;
+        float: right;
+        padding: 4px;
+        height: 31px;
+        width: 76px;
+        background: top;
+        background-color: skyblue;
+    }
+
+    .Edit {
+        border: antiquewhite;
+        margin: 10px;
+    }
+
+    .Load_student {
+        border: antiquewhite;
+        margin: 10px;
+    }
+
+    .editbtn {
+        margin: 10px;
+        color: #fff;
+        background-color: black;
+        border-color: black;
+    }
+
+    .deletebtn {
+        margin: 10px;
+        color: #fff;
+        background-color: red;
+        border-color: black;
+    }
+
+    .close {
+    }
+</style>
+
+<div>
+    <button class="Save" @onclick="()=>SaveVt1(students)"> save</button>
+</div>
+
+
+<input type="text" @bind="students.Name" placeholder="Text Name" />
+<input type="text" @bind="students.Description" placeholder="Text description" />
+
+<button class="Load_student" @onclick="(()=>all())"> Load students</button>
+
+
+
+
+<button class="close" @onclick="@Close">&#x2715</button>
+
+
+<table hidden="@ShowGrid">
+    <thead>
+        <tr>
+
+            <th>Name</th>
+            <th>Description</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var std in studentDtOList)
+        {
+            <tr>
+                <td>@std.Name</td>
+                <td>@std.Description</td>
+                <td>
+                    <button class="editbtn" @onclick="(()=>UpdateVt1(std))">Update</button>
+                    <button class="deletebtn" @onclick="(()=>DeleteVt1(std))"> Delete</button>
+                </td>
+            </tr>
+        }
+        
+        
+    </tbody>
+</table>
+
+
+
+@code
+{
+
+    readonly List<StudentDtO> studentDtOList = new List<StudentDtO>();
+    private bool ShowGrid { get; set; }
+    StudentDtO students = new StudentDtO();
+    RadzenDataGrid<StudentDtO> grid;
+    Code code = new Code();
+    protected override Task OnInitializedAsync()
+    {
+
+        ShowGrid = true;
+        return base.OnInitializedAsync();
+    }
+    #region commented Code.
+    public IEnumerable<StudentDtO> all()
+    {
+        ShowGrid = false;
+        for(var i=1;i<3;i++)
+        {
+        studentDtOList.Add(new StudentDtO()
+            {
+                Name = "test"+i,
+                Description = "test"+i
+
+            });
+        }
+
+        //studentDtOList.Add(new StudentDtO()
+        //    {
+        //        Name = students.Name,
+        //        Description = students.Description
+
+        //    });
+
+
+        return studentDtOList;
+
+
+
+    }
+    public IEnumerable<StudentDtO> SaveVt1(StudentDtO student)
+    {
+        studentDtOList.Add(student);
+        return studentDtOList;
+    }
+
+    public List<StudentDtO> UpdateVt1(StudentDtO student)
+    {
+        studentDtOList.RemoveAll(c => c.Id == student.Id);
+        studentDtOList.Add(student);
+        return studentDtOList;
+    }
+
+    public List<StudentDtO> DeleteVt1(StudentDtO student)
+    {
+        studentDtOList.Remove(student);
+        return studentDtOList;
+
+    }
+    #endregion 
+   
+    private void Close()
+    {
+        ShowGrid = true;
+    }
+
+}
+

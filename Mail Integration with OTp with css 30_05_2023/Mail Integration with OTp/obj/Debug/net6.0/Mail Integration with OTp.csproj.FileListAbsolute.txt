@@ -62,3 +62,35 @@ C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\Mail Integration wit
 C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\obj\Debug\net6.0\Mail Integration with OTp.pdb
 C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\obj\Debug\net6.0\Mail Integration with OTp.genruntimeconfig.cache
 C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\obj\Debug\net6.0\ref\Mail Integration with OTp.dll
+D:\My_Blazor_pocs\Blazor-Poc-s\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\bin\Debug\net6.0\appsettings.Development.json
+D:\My_Blazor_pocs\Blazor-Poc-s\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\bin\Debug\net6.0\appsettings.json
+D:\My_Blazor_pocs\Blazor-Poc-s\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\bin\Debug\net6.0\Mail Integration with OTp.staticwebassets.runtime.json
+D:\My_Blazor_pocs\Blazor-Poc-s\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\bin\Debug\net6.0\Mail Integration with OTp.exe
+D:\My_Blazor_pocs\Blazor-Poc-s\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\bin\Debug\net6.0\Mail Integration with OTp.deps.json
+D:\My_Blazor_pocs\Blazor-Poc-s\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\bin\Debug\net6.0\Mail Integration with OTp.runtimeconfig.json
+D:\My_Blazor_pocs\Blazor-Poc-s\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\bin\Debug\net6.0\Mail Integration with OTp.dll
+D:\My_Blazor_pocs\Blazor-Poc-s\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\bin\Debug\net6.0\Mail Integration with OTp.pdb
+D:\My_Blazor_pocs\Blazor-Poc-s\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\obj\Debug\net6.0\Mail Integration with OTp.csproj.AssemblyReference.cache
+D:\My_Blazor_pocs\Blazor-Poc-s\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\obj\Debug\net6.0\Mail Integration with OTp.GeneratedMSBuildEditorConfig.editorconfig
+D:\My_Blazor_pocs\Blazor-Poc-s\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\obj\Debug\net6.0\Mail Integration with OTp.AssemblyInfoInputs.cache
+D:\My_Blazor_pocs\Blazor-Poc-s\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\obj\Debug\net6.0\Mail Integration with OTp.AssemblyInfo.cs
+D:\My_Blazor_pocs\Blazor-Poc-s\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\obj\Debug\net6.0\Mail Integration with OTp.csproj.CoreCompileInputs.cache
+D:\My_Blazor_pocs\Blazor-Poc-s\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\obj\Debug\net6.0\Mail Integration with OTp.MvcApplicationPartsAssemblyInfo.cache
+D:\My_Blazor_pocs\Blazor-Poc-s\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\obj\Debug\net6.0\Mail Integration with OTp.RazorAssemblyInfo.cache
+D:\My_Blazor_pocs\Blazor-Poc-s\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\obj\Debug\net6.0\Mail Integration with OTp.RazorAssemblyInfo.cs
+D:\My_Blazor_pocs\Blazor-Poc-s\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\obj\Debug\net6.0\staticwebassets\msbuild.Mail Integration with OTp.Microsoft.AspNetCore.StaticWebAssets.props
+D:\My_Blazor_pocs\Blazor-Poc-s\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\obj\Debug\net6.0\staticwebassets\msbuild.build.Mail Integration with OTp.props
+D:\My_Blazor_pocs\Blazor-Poc-s\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Mail Integration with OTp.props
+D:\My_Blazor_pocs\Blazor-Poc-s\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Mail Integration with OTp.props
+D:\My_Blazor_pocs\Blazor-Poc-s\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\obj\Debug\net6.0\staticwebassets.pack.json
+D:\My_Blazor_pocs\Blazor-Poc-s\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\obj\Debug\net6.0\staticwebassets.build.json
+D:\My_Blazor_pocs\Blazor-Poc-s\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\obj\Debug\net6.0\staticwebassets.development.json
+D:\My_Blazor_pocs\Blazor-Poc-s\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+D:\My_Blazor_pocs\Blazor-Poc-s\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+D:\My_Blazor_pocs\Blazor-Poc-s\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\obj\Debug\net6.0\scopedcss\bundle\Mail Integration with OTp.styles.css
+D:\My_Blazor_pocs\Blazor-Poc-s\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\obj\Debug\net6.0\scopedcss\projectbundle\Mail Integration with OTp.bundle.scp.css
+D:\My_Blazor_pocs\Blazor-Poc-s\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\obj\Debug\net6.0\Mail Integration with OTp.dll
+D:\My_Blazor_pocs\Blazor-Poc-s\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\obj\Debug\net6.0\refint\Mail Integration with OTp.dll
+D:\My_Blazor_pocs\Blazor-Poc-s\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\obj\Debug\net6.0\Mail Integration with OTp.pdb
+D:\My_Blazor_pocs\Blazor-Poc-s\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\obj\Debug\net6.0\Mail Integration with OTp.genruntimeconfig.cache
+D:\My_Blazor_pocs\Blazor-Poc-s\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\obj\Debug\net6.0\ref\Mail Integration with OTp.dll

@@ -1,0 +1,196 @@
+﻿@page "/MainPage"
+@using Radzen
+@inject IJSRuntime JSRuntime
+@using Microsoft.JSInterop;
+@using Application.Models
+@inject NavigationManager Navigation;
+
+
+<p>Sample Application</p>
+<style>
+    .submit{
+
+    }
+    .Menu{
+        border: crimson;
+    }
+
+    .button{
+        border: crimson;
+    }
+</style>
+
+<div>
+   @* <select @bind="@query" @oninput = "submit">
+        @foreach(var item in detailsList)
+        {
+        <option>
+            @item.Names
+        </option>
+        }
+    </select>*@
+    <RadzenLabel>Order</RadzenLabel>
+    <input type="Text" placeholder="" @bind="@query" @oninput="ToggleOption" />
+    <button class="Menu"  @onclick="()=>submit(query)">Submit</button>
+    <button class="Menu" @onclick="Menu">Menu</button>
+    <button class="button" @onclick="@Close">Close</button>
+</div>
+
+
+@*<RadzenDropDown @bind-Value=@query Data=@list TextProperty="Names" ValueProperty="id" 
+                Multiple=true AllowClear=false Placeholder="Select products" SelectAllText="Select all" Chips=true Style="width: 100%; max-width: 400px;" />
+<button class="Menu" @onclick="Menu">Menu</button>
+<button class="button" @onclick="@Close">Close</button>*@
+
+
+
+
+@if (query != null)
+{
+    @foreach (var products in detailsList)
+    {
+        @if (products.Names.Contains(query)) 
+        {
+                <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>Description</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>@products.Names</td>
+                        <td>@products.prices</td>
+                    </tr>
+                </tbody>
+            </table>
+        }
+       
+
+}
+
+}
+
+
+
+
+<div hidden="@ShowGrid">
+<RadzenDataGrid @ref="grid" AllowRowSelectOnRowClick="true" FilterPopupRenderMode="PopupRenderMode.OnDemand" FilterCaseSensitivity="FilterCaseSensitivity.CaseInsensitive" AllowPaging="true" PageSize="4"
+                AllowSorting="true" Data="@detailsList" TItem="Details" ColumnWidth="200px"
+                SelectionMode="DataGridSelectionMode.Multiple" class="m-4">
+
+    <Columns>
+        <RadzenDataGridColumn TItem="Details" Property="Names" Title="Name" />
+        <RadzenDataGridColumn TItem="Details" Property="prices" Title="Prices" />
+    </Columns>
+</RadzenDataGrid>
+
+   @* <RadzenGrid TItem="Details" Data="@detailsList">
+        <Columns>
+            <RadzenGridColumn TItem="Details" Property="Names" Title="Name" />
+            <RadzenGridColumn TItem="Details" Property="prices" Title="prices" />
+            <RadzenGridColumn TItem="Details" Property="photo" Title="photo">
+                <Template Context="details">
+                    <img src="@details.photo" alt="@details.photo" style="max-width: 100px;" />
+                </Template>
+            </RadzenGridColumn>
+        </Columns>
+    </RadzenGrid>*@
+
+</div>
+
+
+
+
+
+@code{
+    private string query;
+    IEnumerable<int> values = new int[] { };
+    IEnumerable<Details> list;
+    //string Value;
+    public bool ShowGrid { get; set; }
+    Details details = new Details();
+    RadzenDataGrid<Details> grid;
+    private List<Details> Result = new List<Details>();
+    private List<Details> detailsList = new()
+    {
+        new Details()
+        {
+            Id = 1,
+            Names  = "ice Cream",
+            prices = 140,
+
+
+        },
+         new Details()
+        {
+             Id = 2,
+            Names  = "cake",
+            prices =200
+
+        },
+         new Details()
+        {
+             Id = 3,
+            Names  = "chocaltes",
+            prices =10
+
+        },
+    };
+
+    protected override void OnInitialized()
+    {
+        list = detailsList;
+        base.OnInitialized();
+        ShowGrid = false;
+    }
+    private void Close()
+    {
+        ShowGrid = true;
+    }
+    private async Task ToggleOption(ChangeEventArgs e)
+    {
+
+        if (e.Value  != null)
+        {
+            var text = e.Value.ToString().ToLower();
+
+            Result = detailsList.Where(c => c.Names.Contains(text.ToString())).ToList();
+
+        }
+        else if(query ==  null)
+        {
+
+            await JSRuntime.InvokeVoidAsync("alert", "Enter Valid Captcha");
+
+        }
+
+    }
+
+
+    private async Task submit(string query)
+    {
+        foreach(var item in detailsList)
+        {
+            if(item.Names ==  query)
+            {
+               
+                var Prices = item.prices;
+                var Names = query;
+                Navigation.NavigateTo($"OrderDetails/{Prices}/{Names}");
+            }
+            
+        }
+       
+    }
+    private void Menu()
+    {
+        ShowGrid = false;
+
+    }
+
+
+
+}
+

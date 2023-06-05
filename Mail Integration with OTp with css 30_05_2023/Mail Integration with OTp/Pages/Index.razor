@@ -99,7 +99,6 @@
         try
         {
             var dta = Cred;
-            
             SmtpClient client = new SmtpClient("smtp-mail.outlook.com");
             client.Port = 587;
             client.DeliveryMethod = SmtpDeliveryMethod.Network;
@@ -113,6 +112,7 @@
             messege.Subject = " " + subject;
             messege.Body = Messege + " " + Date + " " + OTP;
             messege.IsBodyHtml = true;
+            await JSRuntime.InvokeVoidAsync("alert", "Mail Running Please wait");
             client.Send(messege);
 
 

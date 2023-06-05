@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nDr/bbaoDUUCkjANOdBUKj79LiP1koiToJFS90iuswuktnc5LEeeZR3DHK71hQMWZnyFmmcKFt2ULspfWyPkNQ==",
+  "dgSpecHash": "wNEKgsjGI80kaOH6dD+MDBqfcfoHt00tW1RobjHdFCkiIXIaYyAjSnmv5WYeswyA4MEBYHWzmVNzjbckhRnYFg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Garigipati.Kowshik\\Desktop\\Mubadhula\\Application\\Application.csproj",
+  "projectFilePath": "D:\\My_Blazor_pocs\\Blazor-Poc-s\\Application 31_05_2023\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Garigipati.Kowshik\\.nuget\\packages\\blazorcaptcha\\1.4.1\\blazorcaptcha.1.4.1.nupkg.sha512",
     "C:\\Users\\Garigipati.Kowshik\\.nuget\\packages\\libsassbuilder\\2.0.1\\libsassbuilder.2.0.1.nupkg.sha512",
@@ -40,8 +40,7 @@
     "C:\\Users\\Garigipati.Kowshik\\.nuget\\packages\\system.linq.dynamic.core\\1.2.22\\system.linq.dynamic.core.1.2.22.nupkg.sha512",
     "C:\\Users\\Garigipati.Kowshik\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\Garigipati.Kowshik\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
-    "C:\\Users\\Garigipati.Kowshik\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
-    "C:\\Users\\Garigipati.Kowshik\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.15\\microsoft.netcore.app.runtime.mono.browser-wasm.6.0.15.nupkg.sha512"
+    "C:\\Users\\Garigipati.Kowshik\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }
