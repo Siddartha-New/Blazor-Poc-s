@@ -1,0 +1,136 @@
+﻿@page "/"
+@using Mubadhula_Validator_pocs_1.Models;
+@using Microsoft.JSInterop;
+@inject IJSRuntime JSRuntime
+
+
+
+
+
+
+<EditForm Model="@validators" OnValidSubmit="ValidationForm">
+    <DataAnnotationsValidator />
+    <div>
+        <label>
+            FirstName:
+            <div><InputText  @bind-Value="validators.FirstName" /></div>
+            <ValidationMessage For="() => validators.FirstName" />
+        </label>
+    </div>
+    <div>
+        <label>
+            LastName:
+            <div><InputText @bind-Value="validators.LastName" /></div>
+            <ValidationMessage For="() => validators.LastName" />
+        </label>
+    </div>
+        <div>
+            <label>
+                SaudiMobileNumber:
+                <div><input type="text" @bind="validators.MobileNumber" placeholder="@SelectedValue "/>
+                </div>
+            </label>
+        <ValidationMessage For="() => validators.MobileNumber" />
+            <label>Region</label>
+            <select @bind="SelectedValue">
+            @foreach(var mobilenum in MobileNumbersList)
+            {
+                <option>@mobilenum.Digit_Num  @mobilenum.Region</option>
+            }
+            </select>
+        
+        </div>
+       @*<InputRadioGroup Name="radioGroup" @bind-Value="radioModel.RadioValue">
+            <InputRadio Value="0" />Male<br />
+            <InputRadio Value="1" />Female<br />
+        </InputRadioGroup>*@
+        <label>Gender:</label>
+        @foreach(var item in RadioList)
+        {
+        <input type="radio" id="@item.Gender" name="RadioButton" value="@item.Gender" @onchange="@(()=>Radiobutton(item.RadioValue))" />
+        <label for="@item.Gender">@item.Gender</label>
+            
+        }
+    <div>
+            <label>
+                PassPortNumber:
+                <div class="col-md-2"><InputText @bind-Value="validators.PassPortNumber" /></div>
+            <ValidationMessage For="() => validators.PassPortNumber" />
+            </label>
+    </div>
+    <button @onclick="Login">Submit</button>
+</EditForm>
+
+@code {
+
+    public string SelectedValue { get; set; }
+
+    Validations validators = new Validations();
+    Radio radioModel = new();
+
+    List<Radio> RadioList = new List<Radio>()
+    {
+        new Radio()
+        {
+            RadioValue = 1,
+            Gender = "Male"
+        },
+        new Radio()
+        {
+            RadioValue = 0,
+            Gender = "Female"
+        }
+    };
+    List<MobileNumbers> MobileNumbersList = new()
+    {
+        new MobileNumbers()
+        {
+            Region  = "India",
+            Digit_Num = "91"
+
+        },
+        new MobileNumbers()
+        {
+            Region  = "Saudi Arabia",
+            Digit_Num = "+966"
+        },
+        new MobileNumbers()
+        {
+            Region  = "Iran",
+            Digit_Num = "+98"
+        }
+
+    };
+
+
+    private void ValidationForm()
+    {
+        Console.WriteLine("OnValidSubmit");
+    }
+    private async Task Login()
+    {
+
+        try
+        {
+            if (validators.LastName == null && validators.PassPortNumber == null && validators.MobileNumber == null)
+            {
+                await JSRuntime.InvokeVoidAsync("alert", "Please Enters valid fields");
+            }
+           
+        }
+        catch
+        {
+            await JSRuntime.InvokeVoidAsync("alert", "Bug Raised");
+            
+        }
+
+    }
+    private void Radiobutton(int option)
+    {
+        var response = option;
+
+    }
+
+
+
+}

@@ -1,0 +1,33 @@
+C:\Users\Garigipati.Kowshik\Desktop\BlazorApi\Web Controller\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Garigipati.Kowshik\Desktop\BlazorApi\Web Controller\bin\Debug\net6.0\appsettings.json
+C:\Users\Garigipati.Kowshik\Desktop\BlazorApi\Web Controller\bin\Debug\net6.0\Web Controller.exe
+C:\Users\Garigipati.Kowshik\Desktop\BlazorApi\Web Controller\bin\Debug\net6.0\Web Controller.deps.json
+C:\Users\Garigipati.Kowshik\Desktop\BlazorApi\Web Controller\bin\Debug\net6.0\Web Controller.runtimeconfig.json
+C:\Users\Garigipati.Kowshik\Desktop\BlazorApi\Web Controller\bin\Debug\net6.0\Web Controller.dll
+C:\Users\Garigipati.Kowshik\Desktop\BlazorApi\Web Controller\bin\Debug\net6.0\Web Controller.pdb
+C:\Users\Garigipati.Kowshik\Desktop\BlazorApi\Web Controller\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Garigipati.Kowshik\Desktop\BlazorApi\Web Controller\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Garigipati.Kowshik\Desktop\BlazorApi\Web Controller\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Garigipati.Kowshik\Desktop\BlazorApi\Web Controller\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Garigipati.Kowshik\Desktop\BlazorApi\Web Controller\obj\Debug\net6.0\Web Controller.csproj.AssemblyReference.cache
+C:\Users\Garigipati.Kowshik\Desktop\BlazorApi\Web Controller\obj\Debug\net6.0\Web Controller.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Garigipati.Kowshik\Desktop\BlazorApi\Web Controller\obj\Debug\net6.0\Web Controller.AssemblyInfoInputs.cache
+C:\Users\Garigipati.Kowshik\Desktop\BlazorApi\Web Controller\obj\Debug\net6.0\Web Controller.AssemblyInfo.cs
+C:\Users\Garigipati.Kowshik\Desktop\BlazorApi\Web Controller\obj\Debug\net6.0\Web Controller.csproj.CoreCompileInputs.cache
+C:\Users\Garigipati.Kowshik\Desktop\BlazorApi\Web Controller\obj\Debug\net6.0\Web Controller.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Garigipati.Kowshik\Desktop\BlazorApi\Web Controller\obj\Debug\net6.0\Web Controller.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Garigipati.Kowshik\Desktop\BlazorApi\Web Controller\obj\Debug\net6.0\staticwebassets\msbuild.Web Controller.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Garigipati.Kowshik\Desktop\BlazorApi\Web Controller\obj\Debug\net6.0\staticwebassets\msbuild.build.Web Controller.props
+C:\Users\Garigipati.Kowshik\Desktop\BlazorApi\Web Controller\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Web Controller.props
+C:\Users\Garigipati.Kowshik\Desktop\BlazorApi\Web Controller\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Web Controller.props
+C:\Users\Garigipati.Kowshik\Desktop\BlazorApi\Web Controller\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Garigipati.Kowshik\Desktop\BlazorApi\Web Controller\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Garigipati.Kowshik\Desktop\BlazorApi\Web Controller\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Garigipati.Kowshik\Desktop\BlazorApi\Web Controller\obj\Debug\net6.0\scopedcss\bundle\Web Controller.styles.css
+C:\Users\Garigipati.Kowshik\Desktop\BlazorApi\Web Controller\obj\Debug\net6.0\Web Controller.csproj.CopyComplete
+C:\Users\Garigipati.Kowshik\Desktop\BlazorApi\Web Controller\obj\Debug\net6.0\Web Controller.dll
+C:\Users\Garigipati.Kowshik\Desktop\BlazorApi\Web Controller\obj\Debug\net6.0\refint\Web Controller.dll
+C:\Users\Garigipati.Kowshik\Desktop\BlazorApi\Web Controller\obj\Debug\net6.0\Web Controller.pdb
+C:\Users\Garigipati.Kowshik\Desktop\BlazorApi\Web Controller\obj\Debug\net6.0\Web Controller.genruntimeconfig.cache
+C:\Users\Garigipati.Kowshik\Desktop\BlazorApi\Web Controller\obj\Debug\net6.0\ref\Web Controller.dll
+C:\Users\Garigipati.Kowshik\Desktop\BlazorApi\Web Controller\bin\Debug\net6.0\Microsoft.AspNetCore.Blazor.HttpClient.dll

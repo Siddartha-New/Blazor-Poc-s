@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Mubadhula Validator pocs_1.props" />
+</Project>

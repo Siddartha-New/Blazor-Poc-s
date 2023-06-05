@@ -1,0 +1,123 @@
+﻿@page "/"
+@using Models;
+
+<style>
+    .hospitals
+    {
+        display: flex;
+        
+        background-color: #fff;
+        border-radius: 8px;
+        border: none;
+        padding: 15px;
+        border: 1px solid red;
+                width: 500px;
+        
+        
+    }
+
+    .check-form{
+        display: flex;
+        flex-direction: column;
+    }
+</style>
+
+
+
+
+    
+<div class="hospitals" contenteditable="true">
+    @foreach (var option in SelectedOptions)
+    {
+        <h6 contenteditable="true">
+            @option
+            <img src="./img/delete.png" @onclick="@(e=>ClosebuttonAction(e,option))" width="20" height="20" />
+        </h6>
+        <br />
+    }
+     <div contentEditable="true">&#x1F50E</div>
+    <br />
+</div>
+@*</div>*@
+<div class="check-form">
+    @foreach (var health in HealthCareList)
+    {
+        <input type="checkbox" id="@health.id" value="@health.Name" checked="@SelectedOptions.Contains(health.Name)" @onchange="@(() => ToggleOption(health.Name))" />
+        <label>@health.Name</label>
+    }
+</div>
+
+@code {
+    string HeaderText = " ";
+    private string value;
+    private string SearchText { get; set; }
+    private bool showDiv = true;
+    string searchQuery = "";
+    List<string> SelectedOptions = new List<string>();
+    List<HealthCare> HealthCareList = new List<HealthCare>()
+    {
+        new HealthCare()
+        {
+            Name = "Amman Heath Care",
+            id = 1,
+            selected = false
+        },
+         new HealthCare()
+        {
+            Name = "Heath Care",
+            id = 2,
+            selected = false
+        },
+         new HealthCare()
+        {
+            Name = " Test Heath Care",
+            id = 3,
+            selected = false
+        },
+         new HealthCare()
+        {
+            Name = "Mubadula Heath Care",
+            id = 4,
+            selected = false
+        },
+         new HealthCare()
+        {
+            Name = "Mubadula Care",
+            id = 5,
+            selected = false
+        },
+
+    };
+    private void ToggleOption(string option)
+    {
+        #region commented
+        //if (SelectedOptions != null)
+        //{
+        //    SelectedOptions.Remove(option);
+
+        //}
+        //else
+        //{
+        //    SelectedOptions.Add(option);
+        //    SearchText = option;
+        //}
+        #endregion
+        if (SelectedOptions != null)
+        {
+            SelectedOptions.Add(option);
+            SearchText = option;
+        }
+
+    }
+    private void HandleInput(ChangeEventArgs changeEvent)
+    {
+        HeaderText = changeEvent.Value.ToString();
+        //  SelectedOptions = HealthCareList.Where(c => c.Name.Contains(HeaderText, StringComparison.OrdinalIgnoreCase)).ToList()
+    }
+    private async Task ClosebuttonAction(MouseEventArgs e, string option)
+    {
+        SelectedOptions.Remove(option);
+        SearchText = option;
+    }
+}
+

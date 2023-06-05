@@ -1,0 +1,64 @@
+C:\Users\Garigipati.Kowshik\Desktop\Mubadhula\Mail Integration with OTp\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Garigipati.Kowshik\Desktop\Mubadhula\Mail Integration with OTp\bin\Debug\net6.0\appsettings.json
+C:\Users\Garigipati.Kowshik\Desktop\Mubadhula\Mail Integration with OTp\bin\Debug\net6.0\Mail Integration with OTp.staticwebassets.runtime.json
+C:\Users\Garigipati.Kowshik\Desktop\Mubadhula\Mail Integration with OTp\bin\Debug\net6.0\Mail Integration with OTp.exe
+C:\Users\Garigipati.Kowshik\Desktop\Mubadhula\Mail Integration with OTp\bin\Debug\net6.0\Mail Integration with OTp.deps.json
+C:\Users\Garigipati.Kowshik\Desktop\Mubadhula\Mail Integration with OTp\bin\Debug\net6.0\Mail Integration with OTp.runtimeconfig.json
+C:\Users\Garigipati.Kowshik\Desktop\Mubadhula\Mail Integration with OTp\bin\Debug\net6.0\Mail Integration with OTp.dll
+C:\Users\Garigipati.Kowshik\Desktop\Mubadhula\Mail Integration with OTp\bin\Debug\net6.0\Mail Integration with OTp.pdb
+C:\Users\Garigipati.Kowshik\Desktop\Mubadhula\Mail Integration with OTp\obj\Debug\net6.0\Mail Integration with OTp.csproj.AssemblyReference.cache
+C:\Users\Garigipati.Kowshik\Desktop\Mubadhula\Mail Integration with OTp\obj\Debug\net6.0\Mail Integration with OTp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Garigipati.Kowshik\Desktop\Mubadhula\Mail Integration with OTp\obj\Debug\net6.0\Mail Integration with OTp.AssemblyInfoInputs.cache
+C:\Users\Garigipati.Kowshik\Desktop\Mubadhula\Mail Integration with OTp\obj\Debug\net6.0\Mail Integration with OTp.AssemblyInfo.cs
+C:\Users\Garigipati.Kowshik\Desktop\Mubadhula\Mail Integration with OTp\obj\Debug\net6.0\Mail Integration with OTp.csproj.CoreCompileInputs.cache
+C:\Users\Garigipati.Kowshik\Desktop\Mubadhula\Mail Integration with OTp\obj\Debug\net6.0\Mail Integration with OTp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Garigipati.Kowshik\Desktop\Mubadhula\Mail Integration with OTp\obj\Debug\net6.0\Mail Integration with OTp.RazorAssemblyInfo.cache
+C:\Users\Garigipati.Kowshik\Desktop\Mubadhula\Mail Integration with OTp\obj\Debug\net6.0\Mail Integration with OTp.RazorAssemblyInfo.cs
+C:\Users\Garigipati.Kowshik\Desktop\Mubadhula\Mail Integration with OTp\obj\Debug\net6.0\staticwebassets\msbuild.Mail Integration with OTp.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Garigipati.Kowshik\Desktop\Mubadhula\Mail Integration with OTp\obj\Debug\net6.0\staticwebassets\msbuild.build.Mail Integration with OTp.props
+C:\Users\Garigipati.Kowshik\Desktop\Mubadhula\Mail Integration with OTp\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Mail Integration with OTp.props
+C:\Users\Garigipati.Kowshik\Desktop\Mubadhula\Mail Integration with OTp\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Mail Integration with OTp.props
+C:\Users\Garigipati.Kowshik\Desktop\Mubadhula\Mail Integration with OTp\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Garigipati.Kowshik\Desktop\Mubadhula\Mail Integration with OTp\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Garigipati.Kowshik\Desktop\Mubadhula\Mail Integration with OTp\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Garigipati.Kowshik\Desktop\Mubadhula\Mail Integration with OTp\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\Garigipati.Kowshik\Desktop\Mubadhula\Mail Integration with OTp\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\Garigipati.Kowshik\Desktop\Mubadhula\Mail Integration with OTp\obj\Debug\net6.0\scopedcss\bundle\Mail Integration with OTp.styles.css
+C:\Users\Garigipati.Kowshik\Desktop\Mubadhula\Mail Integration with OTp\obj\Debug\net6.0\scopedcss\projectbundle\Mail Integration with OTp.bundle.scp.css
+C:\Users\Garigipati.Kowshik\Desktop\Mubadhula\Mail Integration with OTp\obj\Debug\net6.0\Mail Integration with OTp.dll
+C:\Users\Garigipati.Kowshik\Desktop\Mubadhula\Mail Integration with OTp\obj\Debug\net6.0\refint\Mail Integration with OTp.dll
+C:\Users\Garigipati.Kowshik\Desktop\Mubadhula\Mail Integration with OTp\obj\Debug\net6.0\Mail Integration with OTp.pdb
+C:\Users\Garigipati.Kowshik\Desktop\Mubadhula\Mail Integration with OTp\obj\Debug\net6.0\Mail Integration with OTp.genruntimeconfig.cache
+C:\Users\Garigipati.Kowshik\Desktop\Mubadhula\Mail Integration with OTp\obj\Debug\net6.0\ref\Mail Integration with OTp.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\bin\Debug\net6.0\appsettings.json
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\bin\Debug\net6.0\Mail Integration with OTp.staticwebassets.runtime.json
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\bin\Debug\net6.0\Mail Integration with OTp.exe
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\bin\Debug\net6.0\Mail Integration with OTp.deps.json
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\bin\Debug\net6.0\Mail Integration with OTp.runtimeconfig.json
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\bin\Debug\net6.0\Mail Integration with OTp.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\bin\Debug\net6.0\Mail Integration with OTp.pdb
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\obj\Debug\net6.0\Mail Integration with OTp.csproj.AssemblyReference.cache
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\obj\Debug\net6.0\Mail Integration with OTp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\obj\Debug\net6.0\Mail Integration with OTp.AssemblyInfoInputs.cache
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\obj\Debug\net6.0\Mail Integration with OTp.AssemblyInfo.cs
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\obj\Debug\net6.0\Mail Integration with OTp.csproj.CoreCompileInputs.cache
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\obj\Debug\net6.0\Mail Integration with OTp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\obj\Debug\net6.0\Mail Integration with OTp.RazorAssemblyInfo.cache
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\obj\Debug\net6.0\Mail Integration with OTp.RazorAssemblyInfo.cs
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\obj\Debug\net6.0\staticwebassets\msbuild.Mail Integration with OTp.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\obj\Debug\net6.0\staticwebassets\msbuild.build.Mail Integration with OTp.props
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Mail Integration with OTp.props
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Mail Integration with OTp.props
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\obj\Debug\net6.0\scopedcss\bundle\Mail Integration with OTp.styles.css
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\obj\Debug\net6.0\scopedcss\projectbundle\Mail Integration with OTp.bundle.scp.css
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\obj\Debug\net6.0\Mail Integration with OTp.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\obj\Debug\net6.0\refint\Mail Integration with OTp.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\obj\Debug\net6.0\Mail Integration with OTp.pdb
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\obj\Debug\net6.0\Mail Integration with OTp.genruntimeconfig.cache
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\Mail Integration with OTp with css 30_05_2023\Mail Integration with OTp\obj\Debug\net6.0\ref\Mail Integration with OTp.dll

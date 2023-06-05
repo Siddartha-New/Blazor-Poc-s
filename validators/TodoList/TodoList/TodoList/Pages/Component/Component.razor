@@ -1,0 +1,107 @@
+﻿@page "/todolist"
+@using TodoList.model;  
+<h1>Hotel Details</h1>  
+<EditForm Model="@employee" OnValidSubmit="HandleValidSubmit">  
+    <DataAnnotationsValidator />
+    
+    <div>
+    <label>
+        StartDate:
+            <div class="col-md-2"><InputDate @bind-Value="employee.StartDate" /></div>
+            <ValidationMessage For="() => employee.StartDate" />
+    </label>
+    </div>
+    <div>
+        <label>
+            EndDate:
+            <div class="col-md-2"><InputDate @bind-Value="employee.EndDate" /></div>
+            <ValidationMessage For="() => employee.EndDate" />
+        </label>
+    </div>
+    
+    <div>
+       
+    <label>
+        People:
+        <div class="col-md-2"><InputNumber @bind-Value="employee.People" /></div>
+    </label>
+        <ValidationMessage For="() => employee.People" />
+    </div>
+
+    <div class="row content">  
+        <div class="col-md-2"><label for="Name">Name:</label></div>  
+        <div class="col-md-3"><InputText id="name" @bind-Value="employee.Name" /></div>
+       
+    </div>
+    <ValidationMessage For="() => employee.Name" />
+    <div class="row content">
+        <div class="col-md-2"><label for="Name">Mobile Number:</label></div>
+        <div class="col-md-3"><InputText id="name" @bind-Value="employee.MobileNumber" /></div>
+
+        <ValidationMessage For="() => employee.MobileNumber" />
+    </div>
+     <label>Gender Details :</label>
+    <label> 
+        Male 
+         <InputCheckbox @bind-Value="employee.Male" />
+    </label>
+   
+    <label>
+        Female
+        <InputCheckbox @bind-Value="employee.Female" />
+    </label>
+    <ValidationMessage For="() => employee.Male" />
+   
+
+  
+    <div class="row content">
+        <button type="submit">Submit</button>  
+    </div>
+   
+</EditForm> 
+<label> All Details of Customer checked in Hotel</label>
+    @foreach (var item in TodoLists)
+    {
+        <table  class="table table-hover">
+           <thead>
+               <tr>
+                    <th>Name</th>
+                    <th>Mobile Number</th>
+                    <th>people</th>
+                    <th>Startdate</th>
+                    <th>Enddate</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>            
+                    <td>@item.Name</td>
+                    <td>@item.MobileNumber</td>
+                    <td>@item.People</td>
+                    <td>@item.StartDate</td>
+                    <td>@item.EndDate</td>
+                </tr>
+
+             </tbody>
+        </table>
+    }
+ 
+
+  
+@code {
+
+    Entity employee = new Entity();
+    public List<Entity> TodoLists = new List<Entity>();
+
+
+
+    private void HandleValidSubmit()  
+    {
+        TodoLists.Add(employee);
+        employee = new Entity();
+        var daa = employee.Female;
+        Console.WriteLine("OnValidSubmit");
+    }  
+  
+
+}  
+

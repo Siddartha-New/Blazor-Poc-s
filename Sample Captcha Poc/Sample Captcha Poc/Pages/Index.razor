@@ -1,0 +1,84 @@
+﻿@page "/"
+
+@using System.Text;
+
+
+
+@*<Captcha @bind-CaptchaWord="@Captcha" CharNumber="@CaptchaLetters"></Captcha>*@
+
+<h1>@captchaValue</h1>
+<button @onclick="GenerateCaptcha">Refresh</button>
+
+<input type="text" class="form-control" @bind-value="code" />
+<div class="col-10">
+    <button class="btn-btn-primary" @onclick="@ValidateCaptcha">Validate Capcha.</button>
+</div>
+
+@if (code == captchaValue)
+{
+    <hr />
+    <p class=" bg-success">@SuccessMessege</p>
+}
+else
+{
+    <hr />
+    <p class=" bg-warning">@ErrorMessege</p>
+}
+
+@code {
+
+    // private string Captcha = "";
+    //  private int CaptchaLetters = 5;
+    private string SuccessMessege;
+    private string ErrorMessege;
+    public string code { get; set; }
+    public string captchaValue;
+
+
+
+    protected override Task OnInitializedAsync()
+    {
+
+        // Captcha = BlazorCaptcha.Tools.GetCaptchaWord(CaptchaLetters);
+        GenerateCaptcha();
+        return base.OnInitializedAsync();
+    }
+
+    private void ValidateCaptcha()
+    {
+        if (code == captchaValue)
+        {
+            SuccessMessege = "Success";
+        }
+        else
+        {
+            ErrorMessege = "Fail";
+        }
+    }
+    private void GenerateCaptcha()
+    {
+        const int captchaLength = 6;
+        const string captchaChars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+        var captcha = new StringBuilder();
+        var random = new Random();
+
+        for (int i = 0; i < captchaLength; i++)
+        {
+            captcha.Append(captchaChars[random.Next(captchaChars.Length)]);
+        }
+
+        captchaValue = captcha.ToString();
+    }
+    private void RefreshCaptcha()
+    {
+        GenerateCaptcha();
+        StateHasChanged();
+    }
+
+}
+
+
+
+
+
+

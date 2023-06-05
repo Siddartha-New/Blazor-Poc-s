@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Radzencontrols drown to search.props" />
+</Project>

@@ -1,0 +1,351 @@
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\appsettings.Development.json
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\appsettings.json
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\TodoList.staticwebassets.runtime.json
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\TodoList.exe
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\TodoList.deps.json
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\TodoList.runtimeconfig.json
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\TodoList.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\TodoList.pdb
+D:\OTP Generator\TodoList\TodoList\obj\Debug\net6.0\TodoList.csproj.AssemblyReference.cache
+D:\OTP Generator\TodoList\TodoList\obj\Debug\net6.0\TodoList.GeneratedMSBuildEditorConfig.editorconfig
+D:\OTP Generator\TodoList\TodoList\obj\Debug\net6.0\TodoList.AssemblyInfoInputs.cache
+D:\OTP Generator\TodoList\TodoList\obj\Debug\net6.0\TodoList.AssemblyInfo.cs
+D:\OTP Generator\TodoList\TodoList\obj\Debug\net6.0\TodoList.csproj.CoreCompileInputs.cache
+D:\OTP Generator\TodoList\TodoList\obj\Debug\net6.0\TodoList.MvcApplicationPartsAssemblyInfo.cache
+D:\OTP Generator\TodoList\TodoList\obj\Debug\net6.0\TodoList.RazorAssemblyInfo.cache
+D:\OTP Generator\TodoList\TodoList\obj\Debug\net6.0\TodoList.RazorAssemblyInfo.cs
+D:\OTP Generator\TodoList\TodoList\obj\Debug\net6.0\staticwebassets\msbuild.TodoList.Microsoft.AspNetCore.StaticWebAssets.props
+D:\OTP Generator\TodoList\TodoList\obj\Debug\net6.0\staticwebassets\msbuild.build.TodoList.props
+D:\OTP Generator\TodoList\TodoList\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.TodoList.props
+D:\OTP Generator\TodoList\TodoList\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.TodoList.props
+D:\OTP Generator\TodoList\TodoList\obj\Debug\net6.0\staticwebassets.pack.json
+D:\OTP Generator\TodoList\TodoList\obj\Debug\net6.0\staticwebassets.build.json
+D:\OTP Generator\TodoList\TodoList\obj\Debug\net6.0\staticwebassets.development.json
+D:\OTP Generator\TodoList\TodoList\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+D:\OTP Generator\TodoList\TodoList\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+D:\OTP Generator\TodoList\TodoList\obj\Debug\net6.0\scopedcss\bundle\TodoList.styles.css
+D:\OTP Generator\TodoList\TodoList\obj\Debug\net6.0\scopedcss\projectbundle\TodoList.bundle.scp.css
+D:\OTP Generator\TodoList\TodoList\obj\Debug\net6.0\TodoList.dll
+D:\OTP Generator\TodoList\TodoList\obj\Debug\net6.0\refint\TodoList.dll
+D:\OTP Generator\TodoList\TodoList\obj\Debug\net6.0\TodoList.pdb
+D:\OTP Generator\TodoList\TodoList\obj\Debug\net6.0\TodoList.genruntimeconfig.cache
+D:\OTP Generator\TodoList\TodoList\obj\Debug\net6.0\ref\TodoList.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\Azure.Core.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\Azure.Identity.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\Humanizer.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\Mono.TextTemplating.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\System.CodeDom.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\System.Memory.Data.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\System.Text.Json.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\OTP Generator\TodoList\TodoList\obj\Debug\net6.0\TodoList.csproj.CopyComplete
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\Csla.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\ar\Csla.resources.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\bs\Csla.resources.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\ca-ES\Csla.resources.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\da\Csla.resources.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\de\Csla.resources.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\el\Csla.resources.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\es-ES\Csla.resources.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\es\Csla.resources.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\fr\Csla.resources.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\he-IL\Csla.resources.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\hr\Csla.resources.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\hu\Csla.resources.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\it\Csla.resources.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\km-KH\Csla.resources.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\nl\Csla.resources.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\no\Csla.resources.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\pt-BR\Csla.resources.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\pt\Csla.resources.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\ro\Csla.resources.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\ru\Csla.resources.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\sr\Csla.resources.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\sv\Csla.resources.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\tr\Csla.resources.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\uk-UA\Csla.resources.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\vi\Csla.resources.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\zh-Hans\Csla.resources.dll
+D:\OTP Generator\TodoList\TodoList\bin\Debug\net6.0\zh-TW\Csla.resources.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\appsettings.Development.json
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\appsettings.json
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\TodoList.staticwebassets.runtime.json
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\TodoList.exe
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\TodoList.deps.json
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\TodoList.runtimeconfig.json
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\TodoList.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\TodoList.pdb
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\Azure.Core.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\Azure.Identity.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\Csla.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\Humanizer.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\Mono.TextTemplating.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\System.CodeDom.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\System.Memory.Data.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\System.Text.Json.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\ar\Csla.resources.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\bs\Csla.resources.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\ca-ES\Csla.resources.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\da\Csla.resources.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\de\Csla.resources.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\el\Csla.resources.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\es-ES\Csla.resources.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\es\Csla.resources.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\fr\Csla.resources.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\he-IL\Csla.resources.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\hr\Csla.resources.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\hu\Csla.resources.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\it\Csla.resources.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\km-KH\Csla.resources.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\nl\Csla.resources.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\no\Csla.resources.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\pt-BR\Csla.resources.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\pt\Csla.resources.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\ro\Csla.resources.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\ru\Csla.resources.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\sr\Csla.resources.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\sv\Csla.resources.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\tr\Csla.resources.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\uk-UA\Csla.resources.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\vi\Csla.resources.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\zh-Hans\Csla.resources.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\zh-TW\Csla.resources.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\Blazor Sample project\TodoList\TodoList\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Blazor Sample project\TodoList\TodoList\obj\Debug\net6.0\TodoList.csproj.AssemblyReference.cache
+D:\Blazor Sample project\TodoList\TodoList\obj\Debug\net6.0\TodoList.GeneratedMSBuildEditorConfig.editorconfig
+D:\Blazor Sample project\TodoList\TodoList\obj\Debug\net6.0\TodoList.AssemblyInfoInputs.cache
+D:\Blazor Sample project\TodoList\TodoList\obj\Debug\net6.0\TodoList.AssemblyInfo.cs
+D:\Blazor Sample project\TodoList\TodoList\obj\Debug\net6.0\TodoList.csproj.CoreCompileInputs.cache
+D:\Blazor Sample project\TodoList\TodoList\obj\Debug\net6.0\TodoList.MvcApplicationPartsAssemblyInfo.cache
+D:\Blazor Sample project\TodoList\TodoList\obj\Debug\net6.0\TodoList.RazorAssemblyInfo.cache
+D:\Blazor Sample project\TodoList\TodoList\obj\Debug\net6.0\TodoList.RazorAssemblyInfo.cs
+D:\Blazor Sample project\TodoList\TodoList\obj\Debug\net6.0\staticwebassets\msbuild.TodoList.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Blazor Sample project\TodoList\TodoList\obj\Debug\net6.0\staticwebassets\msbuild.build.TodoList.props
+D:\Blazor Sample project\TodoList\TodoList\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.TodoList.props
+D:\Blazor Sample project\TodoList\TodoList\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.TodoList.props
+D:\Blazor Sample project\TodoList\TodoList\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Blazor Sample project\TodoList\TodoList\obj\Debug\net6.0\staticwebassets.build.json
+D:\Blazor Sample project\TodoList\TodoList\obj\Debug\net6.0\staticwebassets.development.json
+D:\Blazor Sample project\TodoList\TodoList\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+D:\Blazor Sample project\TodoList\TodoList\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+D:\Blazor Sample project\TodoList\TodoList\obj\Debug\net6.0\scopedcss\bundle\TodoList.styles.css
+D:\Blazor Sample project\TodoList\TodoList\obj\Debug\net6.0\scopedcss\projectbundle\TodoList.bundle.scp.css
+D:\Blazor Sample project\TodoList\TodoList\obj\Debug\net6.0\TodoList.csproj.CopyComplete
+D:\Blazor Sample project\TodoList\TodoList\obj\Debug\net6.0\TodoList.dll
+D:\Blazor Sample project\TodoList\TodoList\obj\Debug\net6.0\refint\TodoList.dll
+D:\Blazor Sample project\TodoList\TodoList\obj\Debug\net6.0\TodoList.pdb
+D:\Blazor Sample project\TodoList\TodoList\obj\Debug\net6.0\TodoList.genruntimeconfig.cache
+D:\Blazor Sample project\TodoList\TodoList\obj\Debug\net6.0\ref\TodoList.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\appsettings.json
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\TodoList.staticwebassets.runtime.json
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\TodoList.exe
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\TodoList.deps.json
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\TodoList.runtimeconfig.json
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\TodoList.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\TodoList.pdb
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\Azure.Identity.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\Csla.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\ar\Csla.resources.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\bs\Csla.resources.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\ca-ES\Csla.resources.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\da\Csla.resources.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\de\Csla.resources.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\el\Csla.resources.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\es-ES\Csla.resources.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\es\Csla.resources.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\fr\Csla.resources.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\he-IL\Csla.resources.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\hr\Csla.resources.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\hu\Csla.resources.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\it\Csla.resources.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\km-KH\Csla.resources.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\nl\Csla.resources.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\no\Csla.resources.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\pt-BR\Csla.resources.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\pt\Csla.resources.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\ro\Csla.resources.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\ru\Csla.resources.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\sr\Csla.resources.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\sv\Csla.resources.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\tr\Csla.resources.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\uk-UA\Csla.resources.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\vi\Csla.resources.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\zh-Hans\Csla.resources.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\zh-TW\Csla.resources.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\obj\Debug\net6.0\TodoList.csproj.AssemblyReference.cache
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\obj\Debug\net6.0\TodoList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\obj\Debug\net6.0\TodoList.AssemblyInfoInputs.cache
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\obj\Debug\net6.0\TodoList.AssemblyInfo.cs
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\obj\Debug\net6.0\TodoList.csproj.CoreCompileInputs.cache
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\obj\Debug\net6.0\TodoList.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\obj\Debug\net6.0\TodoList.RazorAssemblyInfo.cache
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\obj\Debug\net6.0\TodoList.RazorAssemblyInfo.cs
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\obj\Debug\net6.0\staticwebassets\msbuild.TodoList.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\obj\Debug\net6.0\staticwebassets\msbuild.build.TodoList.props
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.TodoList.props
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.TodoList.props
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\obj\Debug\net6.0\scopedcss\bundle\TodoList.styles.css
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\obj\Debug\net6.0\scopedcss\projectbundle\TodoList.bundle.scp.css
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\obj\Debug\net6.0\TodoList.csproj.CopyComplete
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\obj\Debug\net6.0\TodoList.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\obj\Debug\net6.0\refint\TodoList.dll
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\obj\Debug\net6.0\TodoList.pdb
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\obj\Debug\net6.0\TodoList.genruntimeconfig.cache
+C:\Users\Garigipati.Kowshik\Desktop\Blazor Webassembly Pocs\TodoList\TodoList\TodoList\obj\Debug\net6.0\ref\TodoList.dll

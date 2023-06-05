@@ -1,0 +1,135 @@
+﻿@page "/MainPage"
+@using Application.Models
+    
+
+
+<p>Sample Application</p>
+<style>
+    .submit{
+
+    }
+    .Menu{
+        border: crimson;
+    }
+
+    .button{
+        border: crimson;
+    }
+</style>
+
+<div>
+    <select @bind="@query" @oninput = "submit">
+        @foreach(var item in detailsList)
+        {
+        <option>
+            @item.Names
+        </option>
+        }
+    </select>
+    <button class="Menu" @onclick="Menu">Menu</button>
+    <button class="button" @onclick="@Close">Close</button>
+</div>
+@if (query != null)
+{
+    @foreach (var products in detailsList)
+    {
+        @if (products.Names.Contains(query))
+        {
+                <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>Description</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>@products.Names</td>
+                        <td>@products.prices</td>
+                    </tr>
+                </tbody>
+            </table>
+        }
+
+    }
+
+}
+<div hidden="@ShowGrid">
+<RadzenDataGrid @ref="grid" AllowRowSelectOnRowClick="true" FilterPopupRenderMode="PopupRenderMode.OnDemand" FilterCaseSensitivity="FilterCaseSensitivity.CaseInsensitive" AllowPaging="true" PageSize="4"
+                AllowSorting="true" Data="@detailsList" TItem="Details" ColumnWidth="200px"
+                SelectionMode="DataGridSelectionMode.Multiple" class="m-4">
+
+    <Columns>
+        <RadzenDataGridColumn TItem="Details" Property="Names" Title="Name" />
+        <RadzenDataGridColumn TItem="Details" Property="prices" Title="Prices" />
+    </Columns>
+</RadzenDataGrid>
+</div>
+
+
+
+
+
+@code{
+    private string query;
+    //string Value;
+    public bool ShowGrid { get; set; }
+    Details details = new Details();
+    RadzenDataGrid<Details> grid;
+    private List<Details> Result = new List<Details>();
+    List<Details> detailsList = new()
+    {
+        new Details()
+        {
+            Names  = "Ice Cream",
+            prices  =140
+
+        },
+         new Details()
+        {
+            Names  = "Cake",
+            prices  =200
+
+        },
+         new Details()
+        {
+            Names  = "Chocaltes",
+            prices  =10
+
+        },
+    };
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        ShowGrid = true;
+
+
+    }
+    private void Close()
+    {
+        ShowGrid = true;
+    }
+    private async Task submit(ChangeEventArgs e)
+    {
+
+        if(query != null)
+        {
+            var text = e.Value;
+
+            Result = detailsList.Where(c => c.Names.Contains(text.ToString())).ToList();
+
+        }
+        
+
+
+    }
+    private void Menu()
+    {
+        ShowGrid = false;
+
+    }
+
+
+
+}
+

@@ -1,0 +1,239 @@
+﻿@page "/"
+@using APP1.Models;
+@using Radzen
+
+  
+        <style>
+                table {
+                    font-family: arial, sans-serif;
+                    border-collapse: collapse;
+                    width: 80%;
+                }
+
+                td, th {
+                    border: 2px solid #dddddd;
+                    text-align: right;
+                    padding: 9px;
+                }
+
+                tr:nth-child(even) {
+                    background-color: wheat;
+                }
+
+                .button {
+                    padding:initial;
+                    margin:auto;
+                    position:left;
+                    float:right;
+                }
+
+            </style>
+        
+
+    <h1>Food Order</h1>
+
+    <input type="text" @bind-value="@query"  placeholder="Enter Your Order"/>
+   
+
+    
+    <RadzenIcon Icon="search"
+        onclick="@PerformSearch">
+        <span>Search</span>
+    </RadzenIcon>
+    
+
+    <button>
+        <RadzenIcon Icon="add_shopping_cart" onclick="@Details" /><span>Order</span>
+        
+    </button>
+    <button>
+        <RadzenIcon Icon="add_shopping_cart" onclick="@Menu" /><span>Entire Menu</span>
+    </button>
+    <div>
+        <button  class="button" @onclick="@Close">
+            Close
+        </button>
+    </div>
+@*<RadzenDropDown @bind-Value=@values Data=@items TextProperty="Description" ValueProperty="Description"
+                Multiple=true AllowClear=false Placeholder="Select products" SelectAllText="Select all" Chips=true Style="width: 100%; max-width: 400px;" />
+*@
+<div hidden="@ShowGrid">
+   @* <RadzenGrid TItem="Items" Data="@items" AllowRowSelectOnRowClick="allowRowSelectOnRowClick">
+            <Columns>
+                <RadzenGridColumn TItem="Items" Property="description" Title="Menu Items" />
+                <RadzenGridColumn TItem="Items" Property="prices" Title="Prices" FormatString="{0:d}" Width="150px" />
+            </Columns>
+        </RadzenGrid>*@
+  <RadzenDataGrid @ref="grid" AllowRowSelectOnRowClick="true"  FilterPopupRenderMode="PopupRenderMode.OnDemand" FilterCaseSensitivity="FilterCaseSensitivity.CaseInsensitive" AllowPaging="true" PageSize="4"
+                    AllowSorting="true" Data="@items" TItem="Items" ColumnWidth="200px"
+                    SelectionMode="DataGridSelectionMode.Multiple" class="m-4">
+        <Columns>
+            
+            <RadzenDataGridColumn TItem="Items" Property="description" Title="Description" />
+            <RadzenDataGridColumn TItem="Items" Property="prices" Title="Prices" />
+            @*<RadzenGridColumn TItem="Items">
+                <Template Context="person">
+                    <button class="btn btn-danger" @onclick="@(() => DeletePerson(person))">Delete</button>
+                </Template>
+            </RadzenGridColumn>*@
+
+           
+        </Columns>
+    </RadzenDataGrid>
+    @*<RadzenGrid TItem="Items" Data="@items" PageSize="5">
+        <Columns>
+            
+            <RadzenGridColumn TItem="Items" Property="description" Title="description" />
+            <RadzenGridColumn TItem="Items" Property="prices" Title="prices" />
+            <RadzenGridColumn TItem="Items">
+                <Template Context="person">
+                    <button class="btn btn-danger" @onclick="@(() => DeletePerson(person))">Delete</button>
+                </Template>
+            </RadzenGridColumn>
+        </Columns>
+    </RadzenGrid>
+    *@
+    
+
+    </div>
+
+        @if(query != null)
+        {
+            <div>
+                <p>OrderDetails quantity</p> 
+                @foreach(var data in Result)
+                {
+                    <li>@data.description</li>
+                }
+                    
+            </div>
+
+        }
+        <div>
+        @if (query != null)
+        {
+            @foreach (var products in items)
+            {
+                @if (products.description.Contains(query))
+                {
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Description</th>
+                                <th>Price</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>@products.description</td>
+                                <td>@products.prices</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                }
+        
+            }
+
+        }
+       @* else if (query == null)
+        {
+            <p>please enter what do you want</p>
+        }*@
+</div>
+       
+
+
+@code 
+{
+    IEnumerable<int> values = new int[] { };
+    public string selectedRowText;
+    public bool ShowGrid{ get; set; } 
+    bool allowRowSelectOnRowClick = true;
+    RadzenDataGrid<Items> grid;
+   private RadzenGrid<Items> RadzenGrid;
+    #region Constructors
+    private int currentCount = 0;
+    private string query;
+    Items products = new Items();
+    #endregion
+    #region List
+    public List<Items> items = new List<Items> {
+        new Items()
+        { prices = 10,
+            description = "briyani",
+           // Image = "C:\\Users\\Garigipati.Kowshik\\Desktop\\Blazor sample projects\\APP1\\APP1\\Images\\food.png"
+        },
+        new Items() 
+        { prices = 10,
+            description = "ice Cream"
+
+        },
+        new Items() 
+        { prices = 39,
+            description = "spring Rolls"
+
+        },
+        new Items()
+        { prices = 25,
+            description = "choclates"
+        },
+    };
+    #endregion
+
+    private List<Items> Result = new List<Items>();
+    private List<int> total = new List<int>();
+    private void PerformSearch()
+    {
+        if (query != null)
+        {
+            Result = items.Where(c => c.description.Contains(query)).ToList();
+            ShowGrid = true;
+        }
+        else
+        {
+            query = null;
+        }
+
+    }
+    private void Details()
+    {
+        if (query != null)
+        {
+            Result.Add(new Items{description = query});
+
+        }
+
+    }
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        ShowGrid = true;
+      
+
+    }
+    private void Menu()
+    {
+        ShowGrid = false;
+    }
+    private void Close()
+    {
+        ShowGrid = true;
+    }
+    private void DeletePerson(Items person)
+    {
+        items.Remove(person);
+        RadzenGrid.Reload();
+    }
+   
+
+}   
+   
+    
+   
+
+
+
+
+
+
+

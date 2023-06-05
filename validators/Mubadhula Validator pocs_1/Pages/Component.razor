@@ -1,0 +1,43 @@
+﻿@page "/regex"
+@using Models
+
+<EditForm Model="@regex" OnValidSubmit="ValidationForm">
+<DataAnnotationsValidator />
+<div>
+    <label>
+       Test_3:
+        <div><InputText @bind-Value="regex.saudi" /></div>
+            <ValidationMessage For="() => regex.saudi" />
+    </label>
+</div>
+    <div>
+        <label>
+            Test_2:
+            <div><InputText @bind-Value="regex.Iran" /></div>
+            <ValidationMessage For="() => regex.Iran" />
+        </label>
+    </div>
+
+    <div>
+        <label>
+            Test_3:
+            <div><InputText @bind-Value="regex.India"/></div>
+            <ValidationMessage For="() => regex.India" />
+        </label>
+    </div>
+    <button>Submit</button>
+
+
+
+
+</EditForm>
+
+@code {
+    Regex regex = new();
+    private void ValidationForm()
+    {
+        Console.WriteLine("OnValidSubmit");
+    }
+
+
+}

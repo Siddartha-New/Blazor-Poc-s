@@ -1,0 +1,64 @@
+﻿@page "/"
+@using Radzencontrols_drown_to_search.Models;
+@using Radzen
+@using Radzen.Blazor
+
+
+<h1>Radzen dropDown</h1>
+<style>
+    .rz-dropdown-chips .rz-chip {
+        display: inline-flex;
+        align-items: center;
+        gap: var(--rz-chip-gap);
+        background-color: var(--rz-chip-background-color);
+        color: blue;
+        border-radius: blue;
+        padding: var(--rz-chip-padding);
+    }
+
+</style>
+
+<RadzenDropDown @bind-Value=@values Data=@list TextProperty="Name" ValueProperty="id"
+                Multiple=true AllowClear=false Placeholder="Select products" SelectAllText="Select all" Chips=true Style="width: 100%; max-width: 400px;" />
+
+
+
+
+@code{
+
+    public List<Empdata> empdata = new List<Empdata>()
+    {
+        new Empdata()
+        {
+            Name = "Iphone",
+            id =  1
+        },
+        new Empdata()
+        {
+            Name = "Mac",
+            id =  2
+        },
+         new Empdata()
+        {
+            Name = "Windows",
+            id =  3
+        },
+        new Empdata()
+        {
+            Name = "Moto",
+            id = 4  
+        },
+
+
+    };
+   
+    IEnumerable<int> values = new int[] { };
+    IEnumerable<Empdata> list;
+    protected override async Task OnInitializedAsync()
+    {
+        list = empdata;
+    }
+    
+}
+
+

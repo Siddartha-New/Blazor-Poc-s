@@ -1,0 +1,105 @@
+﻿@page "/"
+@using Models;
+
+<style>
+    .hospitals
+    {
+        display: flex;
+        
+        background-color: palevioletred;
+        border-radius: 8px;
+        border: none;
+        padding: 15px;
+        
+    }
+
+    .check-form{
+        display: flex;
+        flex-direction: column;
+    }
+</style>
+<div class="hospitals">
+    @for (var i = 0; i < SelectedOptions.Count; i++)
+    {
+
+        <div contentEditable="true">@SelectedOptions[i] &#9746</div>
+        <br />
+    }
+    <div>&#x1F50E</div>
+    <br />
+</div>
+<div class="check-form">
+    @foreach (var health in HealthCare)
+    {
+        <input type="checkbox" id="@health.id" value="@health.Name" checked="@SelectedOptions.Contains(health.Name)" @onchange="@(() => ToggleOption(health.Name))" />
+        <label>@health.Name</label>
+    }
+</div>
+
+@code{
+
+    private string value;
+    private string SearchText { get; set; }
+
+    List<string> SelectedOptions = new List<string>();
+    List<HealthCare> HealthCare = new List<HealthCare>()
+    {
+        new HealthCare()
+        {
+            Name = "Amman Heath Care",
+            id = 1,
+            selected = false
+        },
+         new HealthCare()
+        {
+            Name = "Heath Care",
+            id = 2,
+            selected = false
+        },
+         new HealthCare()
+        {
+            Name = " Test Heath Care",
+            id = 3,
+            selected = false
+        },
+         new HealthCare()
+        {
+            Name = "Mubadula Heath Care",
+            id = 4,
+            selected = false
+        },
+         new HealthCare()
+        {
+            Name = "Mubadula Care",
+            id = 5,
+            selected = false
+        },
+
+    };
+    private void ToggleOption(string option)
+    {
+        #region commented
+        //if (SelectedOptions != null)
+        //{
+        //    SelectedOptions.Remove(option);
+
+        //}
+        //else
+        //{
+        //    SelectedOptions.Add(option);
+        //    SearchText = option;
+        //}
+        #endregion
+        if (SelectedOptions != null)
+        {
+            SelectedOptions.Add(option);
+            SearchText = option;
+        }
+        else
+        {
+            SelectedOptions.Remove(option);
+            SearchText = option;
+            
+        }
+    }
+}

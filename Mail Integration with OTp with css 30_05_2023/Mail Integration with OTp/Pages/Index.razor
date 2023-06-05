@@ -1,0 +1,140 @@
+﻿@page "/"
+@using System.Net.Mail;
+@using Microsoft.JSInterop;
+@inject IJSRuntime JSRuntime
+
+<style>
+    .Send-btn {
+        margin: 20px;
+        border: antiquewhite;
+        
+    }
+
+    a.Send-btn {
+        color: green;
+        text-decoration: none;
+    }
+    .Date_ {
+        margin: 10px;
+        border: steelblue;
+    }
+
+    .To {
+        border: steelblue;
+    }
+
+    .subject {
+        border: steelblue;
+    }
+
+    .button {
+        border-radius: 4px;
+        background-color: gray;
+        border: none;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 18px;
+        padding: 10px;
+        width: 145px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+</style>
+<input class="To" type="text" placeholder="Creditials" @bind="@Cred" />
+<input class="To" type="Password" placeholder="Password" @bind="@Password" />
+<h1>Mail Sender application</h1>
+
+<input class="To" type="text" placeholder="To" @bind="@To" />
+<input class="subject" type=" text" placeholder="Subject" @bind="@subject" />
+<label>Date</label>
+<input class="Date_" type="date" @bind="@Date">
+
+<div>
+    <textarea @bind="@Messege" class="col-12"></textarea>
+</div>
+
+@*
+<button class="Send-btn" @onclick="SendEmail">Send Email</button>*@
+<button class="button" @onclick="SendEmail"><span>Send Email </span></button>
+
+
+
+
+
+@code {
+    #region CTOR
+    string Cred { get; set; }
+    string Password{ get; set; }
+    string text { get; set; }
+    string subject { get; set; }
+    string Messege { get; set; }
+    string To { get; set; }
+    DateTime Date { get; set; }
+    private string otp;
+    #endregion
+    private async Task SendEmail()
+    {
+        try
+        {
+            var dta = Cred;
+            
+            SmtpClient client = new SmtpClient("smtp-mail.outlook.com");
+            client.Port = 587;
+            client.DeliveryMethod = SmtpDeliveryMethod.Network;
+            System.Net.NetworkCredential credential = new(Cred,Password);
+            client.EnableSsl = true;
+            client.Credentials = credential;
+            otp = GenerateRandomOTP();
+            var OTP = otp;
+            MailMessage messege = new("garigipati.kowshik@mazikglobal.com", "garigipati.kowshik@mazikglobal.com");
+            messege.To.Add(To);
+            messege.Subject = " " + subject;
+            messege.Body = Messege + " " + Date + " " + OTP;
+            messege.IsBodyHtml = true;
+            client.Send(messege);
+
+
+            await JSRuntime.InvokeVoidAsync("alert", "Mail Sended Successfully");
+        }
+        catch (Exception Ex)
+        {
+            await JSRuntime.InvokeVoidAsync("alert", "Mail Sended Failed");
+        }
+
+
+
+    }
+
+    private string GenerateRandomOTP()
+    {
+
+        var random = new Random();
+        var otp = random.Next(100, 999).ToString();
+        return otp;
+    }
+
+
+
+}

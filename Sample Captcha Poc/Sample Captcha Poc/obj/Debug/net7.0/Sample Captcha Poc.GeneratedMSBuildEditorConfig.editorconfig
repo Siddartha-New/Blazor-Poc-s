@@ -1,0 +1,33 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = Sample_Captcha_Poc
+build_property.RootNamespace = Sample_Captcha_Poc
+build_property.ProjectDir = C:\Users\Garigipati.Kowshik\Desktop\captcha\Sample Captcha Poc\Sample Captcha Poc\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Garigipati.Kowshik\Desktop\captcha\Sample Captcha Poc\Sample Captcha Poc
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Garigipati.Kowshik/Desktop/captcha/Sample Captcha Poc/Sample Captcha Poc/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Garigipati.Kowshik/Desktop/captcha/Sample Captcha Poc/Sample Captcha Poc/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Garigipati.Kowshik/Desktop/captcha/Sample Captcha Poc/Sample Captcha Poc/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Garigipati.Kowshik/Desktop/captcha/Sample Captcha Poc/Sample Captcha Poc/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Radzencontrols drown to search.props" />
+</Project>

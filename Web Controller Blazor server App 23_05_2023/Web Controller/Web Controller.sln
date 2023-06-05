@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web Controller", "Web Controller.csproj", "{52833D62-7B95-4AA3-AA6C-D90C9A3926BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api Test", "..\Api Test\Api Test.csproj", "{B0DB4055-2C57-45D3-90D4-BC852194F29D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52833D62-7B95-4AA3-AA6C-D90C9A3926BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52833D62-7B95-4AA3-AA6C-D90C9A3926BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52833D62-7B95-4AA3-AA6C-D90C9A3926BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52833D62-7B95-4AA3-AA6C-D90C9A3926BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0DB4055-2C57-45D3-90D4-BC852194F29D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0DB4055-2C57-45D3-90D4-BC852194F29D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0DB4055-2C57-45D3-90D4-BC852194F29D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0DB4055-2C57-45D3-90D4-BC852194F29D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DEE0C315-4DED-4468-9CE4-E100A0201E7E}
+	EndGlobalSection
+EndGlobal
